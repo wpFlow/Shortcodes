@@ -20,5 +20,10 @@
   
   "require": {
     "wpFlow/Core": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "wpFlow\\Shortcodes": "Classes"
+    }
   }
 }
